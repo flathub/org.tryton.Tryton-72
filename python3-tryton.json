@@ -2,7 +2,7 @@
     "name": "python3-tryton",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==7.2.8\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==7.2.9\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -27,8 +27,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/93/61/3d990970c3f5a7c64dbcf411c5afe40a0e5319cd7832a1c71182fa36bfaa/tryton-7.2.8-py3-none-any.whl",
-            "sha256": "76ef479c3c8a7c938e49d74f16f2f76be07f4b95c301e3311c78e6e5f394113a"
+            "url": "https://files.pythonhosted.org/packages/c5/58/16246abfc2b48c57bb89c6a934e50bd8ac5636fad55919a56953180404cf/tryton-7.2.9-py3-none-any.whl",
+            "sha256": "6fb7fe23f9ff58ba7a398bc59354741ccd12f60583d8f826896ea25f72d3a872"
         }
     ]
 }
